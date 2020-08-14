@@ -1,17 +1,300 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:background="#e76363">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_layout">
+
+    <ImageView
+        android:id="@+id/passwordImage"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/profile" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="홈"
-        android:textColor="@android:color/white"
-        android:textSize="30sp"
-        android:textStyle="bold" />
-</LinearLayout>
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="110dp"
+        android:fontFamily="@font/nanumsquareroundr"
+        android:text="ㅇㅇㅇ님 안녕하세요."
+        android:textSize="22dp"
+        android:textColor="@color/Black">
+    </TextView>
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="110dp"
+        android:fontFamily="@font/nanumsquareroundr"
+        android:text="오늘도 notist와 함께 하세요."
+        android:textSize="17dp"
+        android:textColor="@color/Black">
+    </TextView>
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/nanumsquareroundr"
+        android:text="카테고리"
+        android:textSize="25dp"
+        android:textColor="@color/Black">
+    </TextView>
+
+    <HorizontalScrollView
+        android:layout_width="390dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:scrollbars="">
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                style="@android:style/Widget.DeviceDefault.Light.Button"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/roundedbutton"
+                android:backgroundTint="@color/Coral"
+                android:fontFamily="@font/nanumsquareroundr"
+                android:text="마케팅"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textColor="@color/White"
+                tools:targetApi="ice_cream_sandwich" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/roundedbutton"
+                android:backgroundTint="@color/Coral"
+                android:alpha="0.8"
+                android:fontFamily="@font/nanumsquareroundr"
+                android:text="마케팅원론"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textColor="@color/White" />
+
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/roundedbutton"
+                android:backgroundTint="@color/Coral"
+                android:alpha="0.6"
+                android:fontFamily="@font/nanumsquareroundr"
+                android:text="서비스 디자인"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textColor="@color/White" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/roundedbutton"
+                android:backgroundTint="@color/Coral"
+                android:alpha="0.4"
+                android:fontFamily="@font/nanumsquareroundr"
+                android:text="정보 보호 이론"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textColor="@color/White" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/roundedbutton"
+                android:backgroundTint="@color/Coral"
+                android:alpha="0.25"
+                android:fontFamily="@font/nanumsquareroundr"
+                android:text="네트워크"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textColor="@color/White" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/nanumsquareregular"
+        android:text="해시태그"
+        android:textSize="25dp"
+        android:textColor="@color/Black">
+    </TextView>
+
+    <TableLayout
+
+        android:layout_width="225dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/grid_view">
+
+        //1번째줄
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="104px"
+                android:layout_marginLeft="12px"
+                android:layout_marginRight="32px"
+                android:background="@drawable/hashtag_basic"
+                android:fontFamily="@font/nanumsquareregular"
+                android:gravity="center"
+                android:paddingTop="30px"
+                android:paddingBottom="30px"
+                android:text="마케팅"
+                android:textColor="#222222"
+                android:textSize="40px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="104px"
+                android:layout_marginRight="32px"
+                android:background="@drawable/hashtag_basic"
+                android:fontFamily="@font/nanumsquareregular"
+                android:gravity="center"
+                android:paddingTop="30px"
+                android:paddingBottom="30px"
+                android:text="이미지"
+                android:textColor="#222222"
+                android:textSize="40px" />
+        </TableRow>
+
+        //두 번째 줄ㄹ
+        <TableRow
+            android:layout_width="1000px"
+            android:layout_height="263dp"
+            android:layout_marginTop="32px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="104px"
+                android:layout_marginLeft="12px"
+                android:layout_marginRight="32px"
+                android:paddingTop="30px"
+                android:paddingBottom="30px"
+                android:background="@drawable/hashtag_basic"
+                android:fontFamily="@font/nanumsquareregular"
+                android:gravity="center"
+                android:text="모바일서비스디자인개론"
+                android:textColor="#222222"
+                android:textSize="40px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="104px"
+                android:layout_marginRight="32px"
+                android:paddingTop="30px"
+                android:paddingBottom="30px"
+                android:background="@drawable/hashtag_basic"
+                android:fontFamily="@font/nanumsquareregular"
+                android:gravity="center"
+                android:text="이산수학"
+                android:textColor="#222222"
+                android:textSize="40px" />
+
+        </TableRow>
+
+        //3번째줄
+        <TableRow
+            android:layout_width="1000px"
+            android:layout_height="263dp"
+            android:layout_marginTop="32px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="104px"
+                android:layout_marginLeft="12px"
+                android:layout_marginRight="32px"
+                android:paddingTop="30px"
+                android:paddingBottom="30px"
+                android:background="@drawable/hashtag_basic"
+                android:fontFamily="@font/nanumsquareregular"
+                android:gravity="center"
+                android:text="영상학"
+                android:textColor="#222222"
+                android:textSize="40px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="104px"
+                android:layout_marginRight="32px"
+                android:paddingTop="30px"
+                android:paddingBottom="30px"
+                android:background="@drawable/hashtag_basic"
+                android:fontFamily="@font/nanumsquareregular"
+                android:gravity="center"
+                android:text="UI/UX"
+                android:textColor="#222222"
+                android:textSize="40px" />
+
+        </TableRow>
+
+        //4번째줄
+        <TableRow
+            android:layout_width="1000px"
+            android:layout_height="263dp"
+            android:layout_marginTop="32px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="104px"
+                android:layout_marginLeft="12px"
+                android:layout_marginRight="32px"
+                android:paddingTop="30px"
+                android:paddingBottom="30px"
+                android:background="@drawable/hashtag_basic"
+                android:fontFamily="@font/nanumsquareregular"
+                android:gravity="center"
+                android:text="컴퓨터"
+                android:textColor="#222222"
+                android:textSize="40px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="104px"
+                android:layout_marginRight="32px"
+                android:paddingTop="30px"
+                android:paddingBottom="30px"
+                android:background="@drawable/hashtag_basic"
+                android:fontFamily="@font/nanumsquareregular"
+                android:gravity="center"
+                android:text="건축학"
+                android:textColor="#222222"
+                android:textSize="40px" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
+
