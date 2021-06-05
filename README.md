@@ -1,5 +1,6 @@
 # Final_NOTIST
-![voice](\imagesample\NOTIST\logo2.jpg)
+![logo2](https://user-images.githubusercontent.com/43697574/120884915-efd68a80-c620-11eb-99e5-6900c4d4ef61.jpg)
+![voice](https://user-images.githubusercontent.com/43697574/120884892-cfa6cb80-c620-11eb-944c-7a4dc73b3eda.gif)  
 ## 다자발언 회의기록 앱
 ### Double Slash 4기 프로젝트
 ### 기간: 2020/06 ~ 2020/10
@@ -22,6 +23,9 @@
 #### Naming
 - NOTE + IST "예측불허한, 순간의 영감을 기록하다"
 - NOTE + ARTIST "사용자가 노티스트를 만나 사고의 확장을 경험하다"
+***
+#### WireFrame
+![wireframe](https://user-images.githubusercontent.com/43697574/120884920-febd3d00-c620-11eb-9a23-db0f47b6cc54.png)  
 ***
 #### 기획자
 > 박채은
