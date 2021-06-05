@@ -1,6 +1,7 @@
 # Final_NOTIST
+![voice](C:\Users\MNT\Desktop\imagesample\NOTIST\voice.gif)
 ## 다자발언 회의기록 앱
-### Double Slash 5기 프로젝트
+### Double Slash 4기 프로젝트
 ### 기간: 2020/06 ~ 2020/10
 ***
 ### 소개
