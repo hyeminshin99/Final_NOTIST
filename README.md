@@ -27,6 +27,9 @@
 #### WireFrame
 ![wireframe](https://user-images.githubusercontent.com/43697574/120884920-febd3d00-c620-11eb-9a23-db0f47b6cc54.png)  
 ***
+- 개발언어: Java
+- 프레임워크: Spring, MongoDB
+***
 #### 기획자
 > 박채은
 #### 디자이너
