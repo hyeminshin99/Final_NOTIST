@@ -1,6 +1,7 @@
 # NOTIST
 ## 다자발언 회의기록 앱
-![voice](https://user-images.githubusercontent.com/43697574/120884892-cfa6cb80-c620-11eb-944c-7a4dc73b3eda.gif)  
+![voice](https://user-images.githubusercontent.com/43697574/120884892-cfa6cb80-c620-11eb-944c-7a4dc73b3eda.gif)
+![Note](https://user-images.githubusercontent.com/43697574/121867425-e93fc580-cd3a-11eb-9a71-86a1cecfe96d.png)
 ### Double Slash 4기 프로젝트
 ### 기간: 2020/06 ~ 2020/10
 ***
